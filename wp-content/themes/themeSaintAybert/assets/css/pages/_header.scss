@@ -1,0 +1,47 @@
+.container-header {
+    top: 0; // mettre 30px pour le dashboard WP pour ne pas qu'il se superpose
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    box-shadow: 0 0 15px;
+
+    input{
+        margin-right: 5px;
+    }
+
+    #searchform{
+        display: flex
+    }
+
+    a.nav-link{
+        span{
+            font-size: 20px;
+            &:hover{
+                color: #ffc107;
+            }
+            
+        }
+    }
+    #crumbs{
+        font-size: small;
+        display: flex;
+        a{
+            color:rgb(17, 17, 17);
+            text-decoration: none;
+        }
+        p{
+            color:rgb(17, 17, 17);
+        }
+    }
+    #menu-menu-principal{
+        span{
+            padding-left: 40px;
+            
+        }
+        ::after{
+            padding-left: 0;
+        }
+    }
+    
+    
+}
